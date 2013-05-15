@@ -2,7 +2,8 @@
 
 if [ "$#" != 3 ]
 then
-	echo "This is a small script that will give permission to read/write/execute to a user for a specific folder."
+	echo "This is a small script that sets permissions to a user for a specific folder."
+	echo "The permissions of the parent folders are alse modified so the user can reach the folder."
 	echo ""
 	echo "Usage:"
 	echo "add_user.sh <user_name> <dir_name> <permission>"
